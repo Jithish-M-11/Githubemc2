@@ -121,8 +121,10 @@ USE:
 	    git push origin (which beanch u need to push ex:main)
 ## CHECK WHAT ARE THE BRANCHS IS PRESENTED IN REOSITORY:
 USE:
+
 	git branch -a
 
 ## NEED TO CHANGE THE BRANCH:
 USE:
+
 	git checkout (branch name)
