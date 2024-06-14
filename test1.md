@@ -94,5 +94,26 @@ In path when we try to go back in CMD file path.Then we need to use:
 
         git init
 
-2.ADD THE CHANGES CODE:
-    i
+2. ADD THE CHANGES CODE:
+    In order to add all the changes to "staging Area" 
+USE:
+	git add.
+
+3. COMMIT the file:
+
+	git commit -m "Adding new repository"
+
+4. PUSH:
+	if we need to push the code in new repository then create a new repo in git and copy the url and use this comment:
+	
+        git remote add origin (new repo url)
+	    git branch
+		    ->*master (because the GITHUB changes the main to master);
+
+    Inorder to change the branch use this comment:
+	
+        git branch -M main
+
+    Then push
+    
+	    git push origin (which beanch u need to push ex:main)
