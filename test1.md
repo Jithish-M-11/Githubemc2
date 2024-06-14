@@ -64,12 +64,14 @@ To https://github.com/Jithish-M-11/Githubemc1.git
 ## TO REMOVE THE FILE IN GIT REPOSITORY:(USE git rm "filename")
 
 IF you want to remove the file  in git repository and the file system(cloned one).Then,
- USE: 
+ USE:
+
  	git rm "(FILE NAME)"
 	git commit -m "file is removed"
 	git push origin (branch name)
 If you want to remove the file in git repository and there is no change in file system.Then,
 USE:
+
 	git rm --catch (file name)
 	git commit -m "(file name")
 	git push origin (branch name)
@@ -85,9 +87,9 @@ USE:
 
 ## CREATE a NEW FOLDER in system and try to push in git a new repository:
 
-In path when we try to go back in CMD file path.Then we need to use:
+0. In path when we try to go back in CMD file path.Then we need to use:
 
-    cd ..
+        cd ..
 
 1. INITILIZED EMPTY GIT REPOSITORY
     USE THIS COMMEND:
@@ -115,5 +117,12 @@ USE:
         git branch -M main
 
     Then push
-    
+
 	    git push origin (which beanch u need to push ex:main)
+## CHECK WHAT ARE THE BRANCHS IS PRESENTED IN REOSITORY:
+USE:
+	git branch -a
+
+## NEED TO CHANGE THE BRANCH:
+USE:
+	git checkout (branch name)
