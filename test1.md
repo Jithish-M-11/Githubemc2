@@ -128,3 +128,25 @@ USE:
 USE:
 
 	git checkout (branch name)
+
+    TO CHECK the different two branch:
+USE:
+	
+	git diff (which branch need to check)
+
+It is used to check the current branch vs the branch mention in above comment.
+
+## MEARGE THE UPDATED BRANCH TO MAIN BRANCH:
+
+USE:
+
+	git merge (name the branch you need to update)
+## TO CREATE A NEW BRANCH IN TERMINAL:
+USE:
+
+    git branch  (new branch name)
+    git commit -m "created new branch"
+    git push origin (branch name)
+
+ ### It use stucked in terminal you can't type any comment Then press 'Q' key
+
